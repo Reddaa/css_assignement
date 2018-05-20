@@ -56,6 +56,20 @@ export const LinkButton = styled.a`
     margin: 5px 15px;
 `
 
+export const Playlist = styled.ul`
+    list-style-type: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 180px;  
+    margin: 0;
+    padding-top: 10px;
+    border-top: 1px solid lightgrey;
+`
+
+export const ListItem = styled.li`
+    font-size: 0.9em;
+    padding: 0 0 5px 0;
+`
 export const CardFooter = styled.div`
     display: flex;
     flex-flow: row nowrap;
